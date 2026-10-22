@@ -31,7 +31,7 @@ unserer Projekte gedankt.</p>
 wir aber auf die vielen Helfer vergessen und uns für ca. 3300 geleistete
 Arbeitsstunden bedanken.</p>
 <p>
-<img src="/img/Dorferneuerung/html/Dorferneuerung/Jilka.JPG" width="174" height="147" alt="Partner">Es würde den
+<img src="/img/dorferneuerung/html/dorferneuerung/jilka.jpg" width="174" height="147" alt="Partner">Es würde den
 Rahmen sprengen jeden Beteiligten hier namentlich zu erwähnen,  darum
 bedanken wir uns hier noch einmal bei allen Firmen, Lieferanten und
 sonstigen Beteiligten, die noch nicht genannt wurden.</p>

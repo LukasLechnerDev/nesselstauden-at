@@ -10,11 +10,11 @@ hidden: true
 <td>
 <p>Mittelalterfest Juni 2007&nbsp;gestaltet
 von den Kindern und Lehrerinnen in der Volksschule Geyersberg</p>
-<p><a href="/img/Dorferneuerung/html/Dorferneuerung/SchuleMA/01bSchule.jpg"><img src="/img/Dorferneuerung/html/Dorferneuerung/SchuleMA/01aSchule.jpg" width="85" height="64" alt="Mittelalter-Projekt der Schule Maria Langegg"></a>&nbsp;&nbsp;&nbsp;
-Einladung&nbsp;&nbsp;&nbsp; <a href="/img/Dorferneuerung/html/Dorferneuerung/SchuleMA/07-01c-VS-Einladung.jpg"><img src="/img/Dorferneuerung/html/Dorferneuerung/SchuleMA/07-01a-VS-Einladung.jpg" width="59" height="85" alt="Mittelalter-Projekt der Schule Maria Langegg"></a></p>
+<p><a href="/img/dorferneuerung/html/dorferneuerung/schulema/01bschule.jpg"><img src="/img/dorferneuerung/html/dorferneuerung/schulema/01aschule.jpg" width="85" height="64" alt="Mittelalter-Projekt der Schule Maria Langegg"></a>&nbsp;&nbsp;&nbsp;
+Einladung&nbsp;&nbsp;&nbsp; <a href="/img/dorferneuerung/html/dorferneuerung/schulema/07-01c-vs-einladung.jpg"><img src="/img/dorferneuerung/html/dorferneuerung/schulema/07-01a-vs-einladung.jpg" width="59" height="85" alt="Mittelalter-Projekt der Schule Maria Langegg"></a></p>
 <p>&nbsp; zum Fest bei der&nbsp;</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Burgruine
-zu Geyersberg&nbsp;<a href="/img/Dorferneuerung/html/Dorferneuerung/SchuleMA/07-02b-Kunibaer.jpg"><img src="/img/Dorferneuerung/html/Dorferneuerung/SchuleMA/07-02a-Kunibaer.jpg" width="64" height="85" alt="Mittelalter-Projekt der Schule Maria Langegg"></a>
+zu Geyersberg&nbsp;<a href="/img/dorferneuerung/html/dorferneuerung/schulema/07-02b-kunibaer.jpg"><img src="/img/dorferneuerung/html/dorferneuerung/schulema/07-02a-kunibaer.jpg" width="64" height="85" alt="Mittelalter-Projekt der Schule Maria Langegg"></a>
 und Ritter Kuni-Baer</p>
 <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ritter
@@ -40,7 +40,7 @@ Raubritterburgruine Geyersberg</a><br>
 &nbsp; &nbsp;<br>
 &nbsp;&nbsp;<br>
 <br>
-&nbsp;Zentrum&nbsp; <a href="http://nesselstauden.byto.de/Begruessung.htm"><img src="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Gaestebuch/Tumbnails/05-N6A-038.jpg" width="83" height="85" alt="Mittelalter-Projekt der Schule Maria Langegg"></a>
+&nbsp;Zentrum&nbsp; <a href="/"><img src="/img/dorferneuerung/html/dorferneuerung/steinkreis/gaestebuch/tumbnails/05-n6a-038.jpg" width="83" height="85" alt="Mittelalter-Projekt der Schule Maria Langegg"></a>
 </p>
 </td>
 </tr>

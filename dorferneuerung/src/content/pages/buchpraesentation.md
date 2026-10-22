@@ -13,7 +13,7 @@ bist uns Heimat“</i></b></p>
 20. November 2004 lud die Dorferneuerung zum Abschluss des letzten Großprojektes,
 der Dorfchronik, die Bevölkerung in den Turnsaal nach Geyersberg. Rund 150
 Interessierte nahmen an der Buchpräsentation teil.</p>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/Dorfchronik/Bild_1.jpg" width="659" height="451" alt="Chronikpräsentation"></p>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/dorfchronik/bild_1.jpg" width="659" height="451" alt="Chronikpräsentation"></p>
 <p>Meine
 Freude über das erreichte Ziel und über das gelungene Werk möchte ich nun
 gerne mit Ihnen teilen, und Ihnen über die Entstehung der Dorfchronik
@@ -53,7 +53,7 @@ Fotos und Unterlagen war, haben wir die Aktivitäten ab der Fertigstellung des
 Großprojektes der Dorferneuerung (Gemeinschaftsraum) 2001 die Arbeiten etwas
 intensiviert. Nachdem wir ja alle Laien auf dem Gebiet waren galt es zunächst
 Überlegungen bezüglich Inhalt und Umfang anzustellen. </p>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/Dorfchronik/Bild_2.JPG" width="216" height="253" alt="Chronikpräsentation"></p>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/dorfchronik/bild_2.jpg" width="216" height="253" alt="Chronikpräsentation"></p>
 <p>Ziel
 oder Plan waren damals 150 Exemplare mit ca. 150 Seiten (17x24cm) zu drucken.
 Der Kostenvoranschlag hiefür betrug ca. 6000€. Während sich die inhaltliche
@@ -156,7 +156,7 @@ Löwenanteil davon haben natürlich die beiden Autoren dazu beigetragen, rund
 800 Stunden wurden aber auch von sonstigen Helfern beigetragen, bei denen ich
 mich hier auch bedanken möchte:</p>
 <p>
-&nbsp;<img src="/img/Dorferneuerung/html/Dorferneuerung/Dorfchronik/Bild_3.JPG" width="700" height="486" alt="Chronikpräsentation"></p>
+&nbsp;<img src="/img/dorferneuerung/html/dorferneuerung/dorfchronik/bild_3.jpg" width="700" height="486" alt="Chronikpräsentation"></p>
 <p>Die
 Autoren <st1:personname>
 Harrie Neijnens</st1:personname>
@@ -174,7 +174,7 @@ meiner Familie für die Geduld.
 den vielen Besuchern, die zur Präsentation gekommen sind, aber auch bei den
 vielen Käufern darf ich mich für Ihr Interesse und die vielen positiven Rückmeldungen
 bedanken.</p>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/Dorfchronik/Bild_4_Buchpraesentation_012.jpg" width="639" height="479" alt="Chronikpräsentation"></p>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/dorfchronik/bild_4_buchpraesentation_012.jpg" width="639" height="479" alt="Chronikpräsentation"></p>
 <p>Das
 große Schmöckern begann gleich nach dem Verkauf der Bücher.</p>
 <p>Ich
@@ -207,7 +207,7 @@ Walter Waldbauer wurde die Neuwahl des Vorstandes abgehalten.
 <p>Unter
 der Wahlleitung des Bürgermeisters wurde der ‚alte’ Vorstand einstimmig im
 Amt bestätigt.</p>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/Dorfchronik/Bild_5.JPG" width="637" height="426" alt="Chronikpräsentation">
+<p><img src="/img/dorferneuerung/html/dorferneuerung/dorfchronik/bild_5.jpg" width="637" height="426" alt="Chronikpräsentation">
 </p>
 <p>Der
 neue und ‚alte’ Vorstand bedankt sich für Ihr Vertrauen</p>

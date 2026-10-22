@@ -1,7 +1,6 @@
 ---
 title: "Spiele und Ergebnisse 2011"
 date: "2011-06-15"
-category: "Aktuelles"
 ---
 
 <div class="legacy">

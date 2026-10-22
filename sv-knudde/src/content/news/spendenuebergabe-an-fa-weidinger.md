@@ -1,7 +1,6 @@
 ---
 title: "Spendenübergabe an Fa. Weidinger"
 date: "2009-03-25"
-category: "Aktuelles"
 ---
 
 <div class="legacy">

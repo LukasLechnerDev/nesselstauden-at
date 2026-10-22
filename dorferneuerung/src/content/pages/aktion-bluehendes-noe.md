@@ -28,7 +28,7 @@ gebührlich gefeiert.</td>
 <td></td>
 </tr>
 <tr>
-<td><img src="/img/Dorferneuerung/html/Dorferneuerung/Preisverleihung_2008/08_090_Preisverleihung.jpg" width="640" height="480" alt="Blühendes NÖ"></td>
+<td><img src="/img/dorferneuerung/html/dorferneuerung/preisverleihung_2008/08_090_preisverleihung.jpg" width="640" height="480" alt="Blühendes NÖ"></td>
 </tr>
 <tr>
 <td></td>
@@ -78,7 +78,7 @@ und Zweiten des Landes wurde unsere Ortschaft zum Landessieger 2001 gekürt.</p>
 (!) Dorfbewohner ließen sich die offizielle Übergabe der Siegerurkunde
 am 9.9.2001 in Biberbach nicht entgehen, aber auch die Siegerfeier&nbsp;
 am 10.9.2001 im Gemeinschaftsraum war bestens besucht.</p>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/Siegesfeier_Bluehendes_NOE.JPG" width="238" height="168" alt="Blühendes NÖ"></p>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/siegesfeier_bluehendes_noe.jpg" width="238" height="168" alt="Blühendes NÖ"></p>
 <p>An
 dieser Stelle bedankt sich der Vorstand der Dorferneuerung Nesselstauden
 – Geyersberg bei allen Dorfbewohnern für die tolle Mithilfe bei der

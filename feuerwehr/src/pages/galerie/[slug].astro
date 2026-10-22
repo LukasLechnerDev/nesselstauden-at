@@ -1,0 +1,24 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { Image, getImage } from 'astro:assets';
+import Layout from '../../layouts/Layout.astro';
+import { galleries, galleryTitle } from '../../gallery';
+import { url } from '../../url';
+
+export const getStaticPaths = (() =>
+  Object.entries(galleries).map(([slug, images]) => ({ params: { slug }, props: { images } }))) satisfies GetStaticPaths;
+
+const { images } = Astro.props;
+const title = galleryTitle(Astro.params.slug);
+// thumbnails link to an optimised large version (no lightbox script needed)
+const full = await Promise.all(images.map((src) => getImage({ src, width: 1600 })));
+---
+<Layout title={title}>
+  <h1>{title}</h1>
+  <p><a href={url('/galerie/')}>← Alle Galerien</a></p>
+  <div class="grid">
+    {images.map((img, i) => (
+      <a href={full[i].src}><Image src={img} alt={`${title}, Foto ${i + 1}`} width={320} loading="lazy" /></a>
+    ))}
+  </div>
+</Layout>

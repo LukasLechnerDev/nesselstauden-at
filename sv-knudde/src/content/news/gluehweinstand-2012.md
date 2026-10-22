@@ -1,7 +1,6 @@
 ---
 title: "Glühweinstand 2012"
 date: "2013-01-14"
-category: "Aktuelles"
 ---
 
 <div class="legacy">

@@ -1,7 +1,6 @@
 ---
 title: "Einladung zum Sporttag"
 date: "2014-06-09"
-category: "Aktuelles"
 ---
 
 <div class="legacy">

@@ -1,7 +1,6 @@
 ---
 title: "SV Knudde News 4 / 2014"
 date: "2014-04-09"
-category: "Aktuelles"
 ---
 
 <div class="legacy">

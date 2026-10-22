@@ -24,10 +24,10 @@ Ortsankünder handelt.</td>
 </tr>
 <tr>
 <td>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/02-05-09_Ortsankuender_07_klein.JPG" width="218" height="378" alt="Ortsankünder"></p>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/02-05-09_ortsankuender_07_klein.jpg" width="218" height="378" alt="Ortsankünder"></p>
 </td>
 <td>&nbsp;</td>
-<td><img src="/img/Dorferneuerung/html/Dorferneuerung/02-05-09_Ortsankuender_09.JPG" width="284" height="378" alt="Ortsankünder"></td>
+<td><img src="/img/dorferneuerung/html/dorferneuerung/02-05-09_ortsankuender_09.jpg" width="284" height="378" alt="Ortsankünder"></td>
 </tr>
 <tr>
 <td>
@@ -41,10 +41,10 @@ Langegg kommend</p>
 </td>
 </tr>
 <tr>
-<td><img src="/img/Dorferneuerung/html/Dorferneuerung/02-05-09_Ortsankuender_A.JPG" width="236" height="315" alt="Ortsankünder"></td>
+<td><img src="/img/dorferneuerung/html/dorferneuerung/02-05-09_ortsankuender_a.jpg" width="236" height="315" alt="Ortsankünder"></td>
 <td>&nbsp;</td>
 <td>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/02-05-09_Ortsankuender_B.JPG" width="315" height="236" alt="Ortsankünder"></p>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/02-05-09_ortsankuender_b.jpg" width="315" height="236" alt="Ortsankünder"></p>
 </td>
 </tr>
 <tr>

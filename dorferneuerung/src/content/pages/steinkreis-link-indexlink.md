@@ -21,7 +21,7 @@ Kunstwerke und Fotos</p>
 <p><br>
 <a href="http://www.steinkreisgaleriec.com/">http://www.steinkreisgaleriec.com/<br>
 <br>
-</a>Home&nbsp; <a href="http://nesselstauden.byto.de/Begruessung.htm"><img src="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Gaestebuch/Tumbnails/05-Schw-E-Zeughaus.jpg" width="157" height="157" alt="Steinkreis – Links"></a></p>
+</a>Home&nbsp; <a href="/"><img src="/img/dorferneuerung/html/dorferneuerung/steinkreis/gaestebuch/tumbnails/05-schw-e-zeughaus.jpg" width="157" height="157" alt="Steinkreis – Links"></a></p>
 <p>&nbsp;&nbsp; <br>
 </p></td>
 </tr>

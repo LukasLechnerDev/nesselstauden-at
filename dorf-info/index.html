@@ -29,6 +29,10 @@
     figure { margin: 0; }
     figure img { width: 100%; height: auto; border-radius: 4px; display: block; }
     figcaption { color: var(--muted); font-size: .9rem; margin-top: .3rem; }
+    .emblem { display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: flex-start; }
+    .emblem img { width: 10rem; height: auto; }
+    table { border-collapse: collapse; }
+    th, td { text-align: left; padding: .35rem 1.5rem .35rem 0; border-bottom: 1px solid var(--line); }
     .maps { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; align-items: start; }
     footer { color: var(--muted); font-size: .9rem; text-align: center; padding: 1rem 0 2rem; }
     @media (max-width: 30rem) { dl { grid-template-columns: 1fr; } dt { margin-top: .5rem; } }
@@ -44,6 +48,7 @@
       </div>
       <nav aria-label="Abschnitte">
         <a href="#steckbrief">Steckbrief</a>
+        <a href="#dorfzeichen">Dorfzeichen</a>
         <a href="#fotos">Fotos der Ortschaft</a>
         <a href="#orientierung">Orientierung</a>
       </nav>
@@ -80,6 +85,26 @@
           <li><a href="../dorferneuerung/">Dorferneuerung Nesselstauden-Geyersberg</a></li>
         </ul></dd>
       </dl>
+    </section>
+
+    <section id="dorfzeichen">
+      <h2>Das Dorfzeichen</h2>
+      <div class="emblem">
+        <img src="img/dorfzeichen.jpg" alt="Dorfzeichen von Nesselstauden-Geyersberg mit Ähre, Axt, Buch, Steinkreis und Baum" width="248" height="272" loading="lazy">
+        <div>
+          <p>Das Dorfzeichen entstand nach einer langen Diskussionsphase im Jahr 2001.</p>
+          <table>
+            <thead><tr><th scope="col">Symbol</th><th scope="col">Bedeutung</th></tr></thead>
+            <tbody>
+              <tr><td>Ähre</td><td>Bauernstand</td></tr>
+              <tr><td>Axt</td><td>Waldarbeit</td></tr>
+              <tr><td>Buch</td><td>Schulstandort</td></tr>
+              <tr><td>Steinkreis</td><td>Keltische Vergangenheit</td></tr>
+              <tr><td>Baum</td><td>Dunkelsteinerwald</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </section>
 
     <section id="fotos">

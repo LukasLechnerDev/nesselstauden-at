@@ -10,24 +10,24 @@ hidden: true
 <td>
 <p>Mittelalterfest Schule Geyersberg Juni 2007</p>
 <p>&nbsp;Einzug</p>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/SchuleMA/Bild-039.jpg" width="425" height="319" alt="Einzug"><br>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/schulema/bild-039.jpg" width="425" height="319" alt="Einzug"><br>
 </p>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/SchuleMA/Bild-027.jpg" width="425" height="319" alt="Einzug"></p>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/SchuleMA/Bild-029.jpg" width="425" height="319" alt="Einzug"></p>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/SchuleMA/Bild-030.jpg" width="425" height="319" alt="Einzug"></p>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/SchuleMA/Bild-031.jpg" width="425" height="319" alt="Einzug"></p>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/SchuleMA/Bild-033.jpg" width="425" height="319" alt="Einzug"></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/img/Dorferneuerung/html/Dorferneuerung/SchuleMA/Bild-034.jpg" width="425" height="319" alt="Einzug">&nbsp; </p>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/SchuleMA/Bild-036.jpg" width="425" height="319" alt="Einzug"></p>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/SchuleMA/Bild-037.jpg" width="425" height="319" alt="Einzug"></p>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/schulema/bild-027.jpg" width="425" height="319" alt="Einzug"></p>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/schulema/bild-029.jpg" width="425" height="319" alt="Einzug"></p>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/schulema/bild-030.jpg" width="425" height="319" alt="Einzug"></p>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/schulema/bild-031.jpg" width="425" height="319" alt="Einzug"></p>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/schulema/bild-033.jpg" width="425" height="319" alt="Einzug"></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/img/dorferneuerung/html/dorferneuerung/schulema/bild-034.jpg" width="425" height="319" alt="Einzug">&nbsp; </p>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/schulema/bild-036.jpg" width="425" height="319" alt="Einzug"></p>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/schulema/bild-037.jpg" width="425" height="319" alt="Einzug"></p>
 <p>&nbsp;
-<img src="/img/Dorferneuerung/html/Dorferneuerung/SchuleMA/PICT0028.jpg" width="319" height="425" alt="Einzug"><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/img/Dorferneuerung/html/Dorferneuerung/SchuleMA/PICT0067.jpg" width="425" height="319" alt="Einzug"> </p>
+<img src="/img/dorferneuerung/html/dorferneuerung/schulema/pict0028.jpg" width="319" height="425" alt="Einzug"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/img/dorferneuerung/html/dorferneuerung/schulema/pict0067.jpg" width="425" height="319" alt="Einzug"> </p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
 &nbsp;&nbsp;<br>
 <br>
-&nbsp;Zentrum&nbsp; <a href="http://nesselstauden.byto.de/Begruessung.htm"><img src="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Gaestebuch/Tumbnails/05-N6A-038.jpg" width="83" height="85" alt="Einzug"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Einladung&nbsp; <a href="/schulema-indexma/"><img src="/img/Dorferneuerung/html/Dorferneuerung/SchuleMA/07-01d-VS-Einladung.jpg" width="60" height="85" alt="Einzug"></a>
+&nbsp;Zentrum&nbsp; <a href="/"><img src="/img/dorferneuerung/html/dorferneuerung/steinkreis/gaestebuch/tumbnails/05-n6a-038.jpg" width="83" height="85" alt="Einzug"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Einladung&nbsp; <a href="/schulema-indexma/"><img src="/img/dorferneuerung/html/dorferneuerung/schulema/07-01d-vs-einladung.jpg" width="60" height="85" alt="Einzug"></a>
 </p>
 </td>
 </tr>

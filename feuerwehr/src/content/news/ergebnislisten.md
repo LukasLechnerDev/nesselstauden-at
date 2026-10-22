@@ -5,5 +5,5 @@ category: "Bewerbe"
 ---
 
 <div class="legacy">
-<p>Ergebnisliste vom <a href="/img/Endergebnis_Fire_Race_2010.pdf">Fire Race 2010</a></p><p>Gesamtergebnis <a href="/img/Endergebnis_Schenkenbergcup.pdf">Schenkenberg Cup </a></p><hr>
+<p>Ergebnisliste vom <a href="/img/endergebnis_fire_race_2010.pdf">Fire Race 2010</a></p><p>Gesamtergebnis <a href="/img/endergebnis_schenkenbergcup.pdf">Schenkenberg Cup </a></p><hr>
 </div>

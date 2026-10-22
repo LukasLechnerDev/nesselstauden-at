@@ -1,7 +1,6 @@
 ---
 title: "Einladung Maibaumaufstellen"
 date: "2014-04-19"
-category: "Aktuelles"
 ---
 
 <div class="legacy">

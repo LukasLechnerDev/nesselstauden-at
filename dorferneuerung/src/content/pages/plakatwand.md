@@ -69,11 +69,11 @@ Lechner Leopold jun.</td>
 <table>
 <tbody><tr>
 <td>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/Plakatwand_vorher.JPG" width="251" height="189" alt="Wasserrad und Plakatwand"></p>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/plakatwand_vorher.jpg" width="251" height="189" alt="Wasserrad und Plakatwand"></p>
 </td>
 <td></td>
 <td colspan="3">
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/Plakatwand_nachher.JPG" width="249" height="187" alt="Wasserrad und Plakatwand"></p>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/plakatwand_nachher.jpg" width="249" height="187" alt="Wasserrad und Plakatwand"></p>
 </td>
 </tr>
 <tr>
@@ -85,10 +85,10 @@ Lechner Leopold jun.</td>
 </tr>
 <tr>
 <td>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/Wasserrad_vorher.JPG" width="251" height="185" alt="Wasserrad und Plakatwand"></p></td>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/wasserrad_vorher.jpg" width="251" height="185" alt="Wasserrad und Plakatwand"></p></td>
 <td></td>
 <td colspan="3">
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/Wasserrad_nachher.JPG" width="297" height="181" alt="Wasserrad und Plakatwand"></p></td>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/wasserrad_nachher.jpg" width="297" height="181" alt="Wasserrad und Plakatwand"></p></td>
 </tr>
 <tr>
 <td>
@@ -126,14 +126,14 @@ Wasserrad und
 </tr>
 <tr>
 <td>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/02-05-09_Wasserrad_02.JPG" width="227" height="170" alt="Wasserrad und Plakatwand">
+<p><img src="/img/dorferneuerung/html/dorferneuerung/02-05-09_wasserrad_02.jpg" width="227" height="170" alt="Wasserrad und Plakatwand">
 </p></td>
 <td></td>
 <td>
 </td>
 <td></td>
 <td>
-<img src="/img/Dorferneuerung/html/Dorferneuerung/02-05-09_Wasserrad_04.JPG" width="170" height="227" alt="Wasserrad und Plakatwand">
+<img src="/img/dorferneuerung/html/dorferneuerung/02-05-09_wasserrad_04.jpg" width="170" height="227" alt="Wasserrad und Plakatwand">
 </td>
 </tr>
 <tr>

@@ -56,7 +56,7 @@ Messerer</p>
 </td>
 <td>
 <p>eMail:
-<a href="mailto:Leopold.Lechner@noel.gv.at">Leopold.Lechner@asfinag.at</a></p>
+<a href="mailto:Leopold.Lechner@asfinag.at">Leopold.Lechner@asfinag.at</a></p>
 </td>
 </tr>
 <tr>
@@ -115,7 +115,7 @@ Lechner</p>
 <table>
 <tbody><tr>
 <td rowspan="3">
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/Vorstand.jpg" width="283" height="185" alt="Vorstand"></p></td>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/vorstand.jpg" width="283" height="185" alt="Vorstand"></p></td>
 <td colspan="2"></td>
 </tr>
 <tr>

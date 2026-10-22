@@ -1,7 +1,6 @@
 ---
 title: "Fasching 2011"
 date: "2011-05-12"
-category: "Aktuelles"
 ---
 
 <div class="legacy">

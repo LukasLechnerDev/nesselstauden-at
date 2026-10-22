@@ -31,6 +31,7 @@ const here = Astro.url.pathname;
         <a href={url('/news/')} aria-current={here.includes('/news/') ? 'page' : undefined}>News</a>
         {categories.map((c) => <a href={url(`/kategorie/${slugify(c)}/`)} aria-current={here === url(`/kategorie/${slugify(c)}/`) ? 'page' : undefined}>{c}</a>)}
         {pages.map((p) => <a href={url(`/${p.id}/`)} aria-current={here === url(`/${p.id}/`) ? 'page' : undefined}>{p.data.title}</a>)}
+        <a href={url('/galerie/')} aria-current={here.startsWith(url('/galerie/')) ? 'page' : undefined}>Fotos</a>
       </nav>
     </header>
     <main id="main" class="wrap">
@@ -73,6 +74,8 @@ const here = Astro.url.pathname;
   .cards a { color: var(--ink); text-decoration: none; } .cards a:hover { color: var(--red); }
   .pager { display: flex; justify-content: space-between; margin-top: 2rem; }
   .legacy img { max-width: 100%; height: auto; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); gap: .5rem; }
+  .grid img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 4px; display: block; }
   .legacy table { display: block; overflow-x: auto; border-collapse: collapse; max-width: 100%; }
   .legacy td { vertical-align: top; padding: .2rem .5rem; }
   article { background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: clamp(1rem, 3vw, 2rem); }

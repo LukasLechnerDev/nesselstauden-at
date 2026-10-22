@@ -1,7 +1,6 @@
 ---
 title: "Vorstand neu gewählt"
 date: "2014-01-23"
-category: "Aktuelles"
 ---
 
 <div class="legacy">

@@ -1,7 +1,6 @@
 ---
 title: "Turniersieg am 22.5.2009 in Furth"
 date: "2009-05-25"
-category: "Aktuelles"
 ---
 
 <div class="legacy">

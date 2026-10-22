@@ -77,9 +77,9 @@ Leopold jun.</td>
 <table>
 <tbody><tr>
 <td>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/Parkplatz_vorher.JPG" width="275" height="180" alt="Müllinsel und Parkplatz"></p></td>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/parkplatz_vorher.jpg" width="275" height="180" alt="Müllinsel und Parkplatz"></p></td>
 <td colspan="2">
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/Parkplatz_nachher.JPG" width="309" height="178" alt="Müllinsel und Parkplatz">
+<p><img src="/img/dorferneuerung/html/dorferneuerung/parkplatz_nachher.jpg" width="309" height="178" alt="Müllinsel und Parkplatz">
 </p></td>
 </tr>
 <tr>
@@ -91,9 +91,9 @@ Gemeinschaftsraum</p></td>
 </tr>
 <tr>
 <td>
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/Muellinsel_vorher.JPG" width="277" height="193" alt="Müllinsel und Parkplatz"></p></td>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/muellinsel_vorher.jpg" width="277" height="193" alt="Müllinsel und Parkplatz"></p></td>
 <td colspan="2">
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/Muellinsel_nachher.JPG" width="256" height="189" alt="Müllinsel und Parkplatz"></p></td>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/muellinsel_nachher.jpg" width="256" height="189" alt="Müllinsel und Parkplatz"></p></td>
 </tr>
 <tr>
 <td>

@@ -1,7 +1,6 @@
 ---
 title: "Bilder vom caritativem Glühweinstand am 18.12.2010"
 date: "2010-12-22"
-category: "Aktuelles"
 ---
 
 <div class="legacy">

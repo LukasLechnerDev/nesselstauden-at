@@ -25,31 +25,31 @@ Saxophon-Gruppe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; der Dunkelsteiner
 Blasmusik (Saxxes) mit Mandi himself</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp; <a href="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/Ankuendigung_a.jpg"><img src="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/Ankuendigung_a1.jpg" width="142" height="95" alt="Steinkreis – Fotoausstellung"></a>&nbsp;&nbsp;
-<a href="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/Ankuendigung_b.jpg"><img src="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/Ankuendigung_b1.jpg" width="142" height="95" alt="Steinkreis – Fotoausstellung"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp; <a href="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/ankuendigung_a.jpg"><img src="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/ankuendigung_a1.jpg" width="142" height="95" alt="Steinkreis – Fotoausstellung"></a>&nbsp;&nbsp;
+<a href="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/ankuendigung_b.jpg"><img src="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/ankuendigung_b1.jpg" width="142" height="95" alt="Steinkreis – Fotoausstellung"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
 &nbsp;&nbsp; <br>
 Landhaus Sankt Poelten<br>
 <br>
-<a href="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-28a-Landhaus-Sankt-Poelt.jpg"><img src="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-28a1-Landhaus-Sankt-Poel.jpg" width="142" height="106" alt="Steinkreis – Fotoausstellung"></a>&nbsp;
-<a href="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-29a-Landhaus-Klangturm.jpg"><img src="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-29a1-Landhaus-Klangturm.jpg" width="106" height="142" alt="Steinkreis – Fotoausstellung"></a>&nbsp;
-<a href="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-30a-Landhaus-Kulturbezir.jpg"><img src="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-30a1-Landhaus-Kulturbezi.jpg" width="142" height="106" alt="Steinkreis – Fotoausstellung"></a>
+<a href="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-28a-landhaus-sankt-poelt.jpg"><img src="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-28a1-landhaus-sankt-poel.jpg" width="142" height="106" alt="Steinkreis – Fotoausstellung"></a>&nbsp;
+<a href="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-29a-landhaus-klangturm.jpg"><img src="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-29a1-landhaus-klangturm.jpg" width="106" height="142" alt="Steinkreis – Fotoausstellung"></a>&nbsp;
+<a href="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-30a-landhaus-kulturbezir.jpg"><img src="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-30a1-landhaus-kulturbezi.jpg" width="142" height="106" alt="Steinkreis – Fotoausstellung"></a>
 <br>
-<a href="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-31a-Landhaus-Bibliothek.jpg"><img src="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-31a1-Landhaus-Bibliothek.jpg" width="142" height="106" alt="Steinkreis – Fotoausstellung"></a>&nbsp;
-<a href="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-32a-Landhaus-Bibliothek.jpg"><img src="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-32a1-Landhaus-Bibliothek.jpg" width="142" height="106" alt="Steinkreis – Fotoausstellung"></a>
+<a href="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-31a-landhaus-bibliothek.jpg"><img src="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-31a1-landhaus-bibliothek.jpg" width="142" height="106" alt="Steinkreis – Fotoausstellung"></a>&nbsp;
+<a href="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-32a-landhaus-bibliothek.jpg"><img src="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-32a1-landhaus-bibliothek.jpg" width="142" height="106" alt="Steinkreis – Fotoausstellung"></a>
 &nbsp;<br>
 <br>
-<a href="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-01b-Saxxes.jpg"><img src="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-01a-Saxxes.jpg" width="113" height="85" alt="Steinkreis – Fotoausstellung"></a>
-<a href="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-04b-Saxxes.jpg"><img src="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-04a-Saxxes.jpg" width="113" height="85" alt="Steinkreis – Fotoausstellung"></a>
-<a href="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-06b-Saxxes.jpg"><img src="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-06a-Saxxes.jpg" width="113" height="85" alt="Steinkreis – Fotoausstellung"></a>&nbsp;&nbsp;<br>
+<a href="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-01b-saxxes.jpg"><img src="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-01a-saxxes.jpg" width="113" height="85" alt="Steinkreis – Fotoausstellung"></a>
+<a href="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-04b-saxxes.jpg"><img src="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-04a-saxxes.jpg" width="113" height="85" alt="Steinkreis – Fotoausstellung"></a>
+<a href="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-06b-saxxes.jpg"><img src="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-06a-saxxes.jpg" width="113" height="85" alt="Steinkreis – Fotoausstellung"></a>&nbsp;&nbsp;<br>
 Die Saxxes spielen auf im Zentrum der Macht<br>
-<a href="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-08b-Saxxes.jpg"><img src="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-08a-Saxxes.jpg" width="113" height="85" alt="Steinkreis – Fotoausstellung"></a>
-<a href="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-09b-Hund-v-Leo.jpg"><img src="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-09a-Hund-v-Leo.jpg" width="113" height="85" alt="Steinkreis – Fotoausstellung"></a>
-<a href="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-14b-Saxxes.jpg"><img src="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-14a-Saxxes.jpg" width="85" height="113" alt="Steinkreis – Fotoausstellung"></a>&nbsp;<br>
+<a href="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-08b-saxxes.jpg"><img src="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-08a-saxxes.jpg" width="113" height="85" alt="Steinkreis – Fotoausstellung"></a>
+<a href="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-09b-hund-v-leo.jpg"><img src="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-09a-hund-v-leo.jpg" width="113" height="85" alt="Steinkreis – Fotoausstellung"></a>
+<a href="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-14b-saxxes.jpg"><img src="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-14a-saxxes.jpg" width="85" height="113" alt="Steinkreis – Fotoausstellung"></a>&nbsp;<br>
 Aus dem Kuenstlerviertel Geyersberg hinzugestroemt&nbsp;<br>
-&nbsp;<a href="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-10b-Saxxes.jpg"><img src="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Fotoausstellung/07-10a-Saxxes.jpg" width="113" height="85" alt="Steinkreis – Fotoausstellung"></a>&nbsp;<br>
+&nbsp;<a href="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-10b-saxxes.jpg"><img src="/img/dorferneuerung/html/dorferneuerung/steinkreis/fotoausstellung/07-10a-saxxes.jpg" width="113" height="85" alt="Steinkreis – Fotoausstellung"></a>&nbsp;<br>
 Wie in eine rauschende Ballnacht<br>
 <br>
-&nbsp;Zentrum&nbsp; <a href="http://nesselstauden.byto.de/Begruessung.htm"><img src="/img/Dorferneuerung/html/Dorferneuerung/Steinkreis/Gaestebuch/Tumbnails/05-N6A-038.jpg" width="83" height="85" alt="Steinkreis – Fotoausstellung"></a>
+&nbsp;Zentrum&nbsp; <a href="/"><img src="/img/dorferneuerung/html/dorferneuerung/steinkreis/gaestebuch/tumbnails/05-n6a-038.jpg" width="83" height="85" alt="Steinkreis – Fotoausstellung"></a>
 </p>
 </td>
 </tr>

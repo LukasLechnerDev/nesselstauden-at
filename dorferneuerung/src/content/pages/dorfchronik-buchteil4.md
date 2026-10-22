@@ -5,5 +5,5 @@ hidden: true
 ---
 
 <div class="legacy">
-<p><img src="/img/Dorferneuerung/html/Dorferneuerung/Dorfchronik/Bild34.jpg" alt="Chronik – Teil 4"><img src="/img/Dorferneuerung/html/Dorferneuerung/Dorfchronik/Bild35.jpg" alt="Chronik – Teil 4"><img src="/img/Dorferneuerung/html/Dorferneuerung/Dorfchronik/Bild36.jpg" alt="Chronik – Teil 4"></p>
+<p><img src="/img/dorferneuerung/html/dorferneuerung/dorfchronik/bild34.jpg" alt="Chronik – Teil 4"><img src="/img/dorferneuerung/html/dorferneuerung/dorfchronik/bild35.jpg" alt="Chronik – Teil 4"><img src="/img/dorferneuerung/html/dorferneuerung/dorfchronik/bild36.jpg" alt="Chronik – Teil 4"></p>
 </div>

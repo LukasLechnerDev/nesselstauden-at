@@ -8,7 +8,7 @@ import { dirname, join, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const DEAD = /members\.a1\.net|scifi\.pages\.at|Dokumente%20und%20Einstellungen|validator\.w3\.org|joomla\.org|techline\.de/i;
+const DEAD = /members\.a1\.net|scifi\.pages\.at|Dokumente%20und%20Einstellungen|validator\.w3\.org|joomla\.org|techline\.de|Anmeldungsportal_11/i;
 const KEEP_ATTR = { a: ['href'], img: ['src', 'alt', 'width', 'height'], td: ['colspan', 'rowspan'], th: ['colspan', 'rowspan'] };
 const UNWRAP = 'font, span, u, center, o\\:p, st1\\:place, st1\\:city, small, big';
 const DROP = 'script, style, noscript, meta, link, xml, map, form, input, iframe, object, embed, .article_separator, .buttonheading';
@@ -47,11 +47,15 @@ export function slugify(s) {
     .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 80) || 'seite';
 }
 
+// Phoca aliases can contain dots ("ball-2009-in-ma.-langegg"); drop them for folder and URL names
+const galleryAlias = (alias) => alias?.replace(/\./g, '');
+
 // Pure-function self-check (run: node migrate.mjs --test)
 if (process.argv.includes('--test')) {
   console.assert(slugify('Übungs- und Ausbildungsplan 2012') === 'uebungs-und-ausbildungsplan-2012');
   console.assert(slugify('FF Fest 2026!') === 'ff-fest-2026');
   console.assert(slugify('???') === 'seite');
+  console.assert(galleryAlias('ball-2009-in-ma.-langegg') === 'ball-2009-in-ma-langegg');
   console.log('self-check done');
   process.exit(0);
 }
@@ -70,6 +74,11 @@ const yaml = (obj) => '---\n' + Object.entries(obj).filter(([, v]) => v != null)
 async function clean(html, { pageUrl, assetDir, assetUrl, host, mapLink, alt = '' }) {
   const $ = cheerio.load(`<div id="__root">${html}</div>`, null, false);
   const root = $('#__root');
+  // Flash YouTube embeds no longer play; keep the video as a plain link (no third-party cookies)
+  root.find('object, embed, iframe').each((_, el) => {
+    const id = $.html(el).match(/youtube(?:-nocookie)?\.com\/(?:v|embed)\/([\w-]{11})/)?.[1];
+    if (id && !root.find(`a[href$="${id}"]`).length) $(el).replaceWith(`<p><a href="https://www.youtube.com/watch?v=${id}">Video auf YouTube ansehen</a></p>`);
+  });
   root.find(DROP).remove();
   root.find('img[src*="spacer"], img[src*="PostHeaderIcon"], img[src*="mod_vvisit"]').remove();
   // unwrap repeatedly: FrontPage nests fonts deeply
@@ -89,6 +98,8 @@ async function clean(html, { pageUrl, assetDir, assetUrl, host, mapLink, alt = '
     if (!raw || /^(mailto:|tel:|#|javascript:)/i.test(raw)) return;
     let u;
     try { u = new URL(raw.trim(), pageUrl); } catch { $(el).removeAttr(attr); return; }
+    // old mirror of the Dorferneuerung site
+    if (u.hostname === 'nesselstauden.byto.de') u = new URL(u.pathname.slice(1), FP);
     if (DEAD.test(u.href)) { tag === 'a' ? $(el).replaceWith($(el).contents()) : $(el).remove(); return; }
 
     const sameHost = u.hostname.endsWith(host);
@@ -99,7 +110,8 @@ async function clean(html, { pageUrl, assetDir, assetUrl, host, mapLink, alt = '
     if (u.hostname.endsWith('nesselstauden.at') && ext && !['.php', '.htm', '.html', ''].includes(ext)) {
       // localise asset: keep path below images/ (or full path) to avoid collisions
       const rel = decodeURIComponent(u.pathname).replace(/^.*?\/images\//i, '').replace(/^\/+/, '')
-        .split('/').map((p) => p.replace(/[^\w.\-]+/g, '_')).join('/');
+        .split('/').map((p) => p.replace(/[^\w.\-]+/g, '_')).join('/')
+        .toLowerCase(); // legacy links mix IMAG0224/imag0224; Pages (Linux) is case-sensitive, macOS is not
       jobs.push(download(u.href, join(assetDir, rel)).then((ok) => {
         if (ok) $(el).attr(attr, `${assetUrl}/${rel}`);
         else if (tag === 'img') $(el).remove();
@@ -112,6 +124,12 @@ async function clean(html, { pageUrl, assetDir, assetUrl, host, mapLink, alt = '
     }
   });
   await Promise.all(jobs);
+
+  // some legacy mailto targets disagree with the address shown; the shown one is what readers see and copy
+  root.find('a[href^="mailto:"]').each((_, el) => {
+    const shown = $(el).text().trim();
+    if (/^[\w.+-]+@[\w-]+(\.[\w-]+)+$/.test(shown)) $(el).attr('href', `mailto:${shown}`);
+  });
 
   // drop empties left behind by FrontPage/Joomla
   for (let i = 0; i < 3; i++) root.find('p, b, i, strong, em').each((_, el) => {
@@ -128,7 +146,7 @@ async function pool(items, n, fn) {
 }
 
 // ---------- Joomla 1.5 ----------
-async function joomla({ origin, dir, menu, maxId }) {
+async function joomla({ origin, dir, menu, maxId, overrides = {} }) {
   const host = new URL(origin).hostname;
   const site = join(ROOT, dir);
   const assetDir = join(site, 'public/img');
@@ -186,7 +204,7 @@ async function joomla({ origin, dir, menu, maxId }) {
     let slug = isPage ? slugify(menuIds.get(a.id)) : (m.alias || slugify(a.title));
     while (used.has(slug)) slug += '-' + a.id;
     used.add(slug);
-    return { ...a, ...m, isPage, slug, title: isPage ? menuIds.get(a.id) : a.title };
+    return { ...a, ...m, isPage, slug, title: isPage ? menuIds.get(a.id) : a.title, ...overrides[a.id] };
   });
   // Feuerwehr reuses article 1 for two menu items; menu titles that share an id are aliased
   const byId = new Map(entries.map((e) => [e.id, e]));
@@ -194,6 +212,7 @@ async function joomla({ origin, dir, menu, maxId }) {
     const id = u.searchParams.get('id')?.split(':')[0];
     const view = u.searchParams.get('view');
     if (view === 'article' && byId.has(+id)) { const e = byId.get(+id); return e.isPage ? `/${e.slug}/` : `/news/${e.slug}/`; }
+    if (u.searchParams.get('option') === 'com_phocagallery') { const alias = id && galleryAlias(u.searchParams.get('id').split(':')[1]); return alias ? `/galerie/${alias}/` : '/galerie/'; }
     if (view === 'category' || view === 'section') return '/news/';
     if (u.pathname === '/' || u.pathname === '/index.php') return '/';
     return undefined;
@@ -225,12 +244,21 @@ async function joomla({ origin, dir, menu, maxId }) {
   if (undated.length) console.log(`  date estimated from neighbouring article ids:\n    ${undated.join('\n    ')}`);
 }
 
-// ---------- Phoca gallery (SV Knudde) ----------
+// ---------- Phoca gallery ----------
 async function phoca(origin, dir) {
-  const $ = cheerio.load(await get(`${origin}/index.php?option=com_phocagallery&view=categories&Itemid=10`));
+  const $ = cheerio.load(await get(`${origin}/index.php?option=com_phocagallery&view=categories`));
   const cats = [...new Set($('a').map((_, a) => $(a).attr('href')).get().filter((h) => /view=category&(amp;)?id=\d+:/.test(h)))];
+  // real titles (aliases lost their umlauts), in Phoca's chronological listing order
+  const titles = {};
+  $('a').each((_, a) => {
+    const alias = galleryAlias(($(a).attr('href') || '').match(/view=category&(?:amp;)?id=\d+:([\w.-]+)/)?.[1]);
+    const text = $(a).text().split('»').pop().trim();
+    if (alias && text) titles[alias] = text;
+  });
+  await mkdir(join(ROOT, dir, 'src/assets/galerie'), { recursive: true });
+  await writeFile(join(ROOT, dir, 'src/assets/galerie/titles.json'), JSON.stringify(titles, null, 2) + '\n');
   for (const href of cats) {
-    const alias = href.match(/id=\d+:([\w-]+)/)[1];
+    const alias = galleryAlias(href.match(/id=\d+:([\w.-]+)/)[1]);
     const imgs = new Set();
     for (let start = 0; start < 2000; start += 20) {
       const page = cheerio.load(await get(new URL(href, origin).href + `&limitstart=${start}`));
@@ -336,7 +364,9 @@ const jobs = {
   feuerwehr: () => joomla({
     origin: 'http://feuerwehr.nesselstauden.at', dir: 'feuerwehr', maxId: 200,
     menu: { Feuerwehr: 1, Info: 4, Feuerwehrhaus: 6, Fahrzeuge: 7, Mannschaft: 8, Erfolge: 23, Links: 9 },
-  }),
+    // the legacy articles are literally titled "Veranstaltungen"; 169 was filed under Einsätze
+    overrides: { 165: { title: 'Kabarettabend am 29.09.2023' }, 167: { title: 'Oktoberfest 2023' }, 169: { title: 'Feuerwehrfest 2024 mit Bezirksbewerb', category: 'Veranstaltungen' } },
+  }).then(() => phoca('http://feuerwehr.nesselstauden.at', 'feuerwehr')),
   'sv-knudde': async () => {
     await joomla({ origin: 'http://svknudde.nesselstauden.at', dir: 'sv-knudde', maxId: 80, menu: { Termine: 8, Vorstand: 5, Mannschaft: 6, 'Torschützenliste': 7, Vereinsgeschichte: 4 } });
     await phoca('http://svknudde.nesselstauden.at', 'sv-knudde');
