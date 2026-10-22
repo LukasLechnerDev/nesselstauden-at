@@ -1,0 +1,9 @@
+---
+title: "Einsatzkräfte trainieren Innenangriff"
+date: "2013-03-13"
+category: "Übungen"
+---
+
+<div class="legacy">
+<p>Rund 35 Feuerwehrmänner aus der Gemeinde Bergern im Dunkelsteinerwald trainierten vergangenen Samstag im Brandhaus in der Landesfeuerwehrschule in Tulln den Ernstfall eines Wohnungsbrandes. Initiiert und organisiert von Johannes Schuster konnten die Atemschutzgeräteträger erfahren und austesten, wie ihr Körper bei sehr hohen Temperaturen um die 250°C reagiert. </p><p><img src="/img/stories/2013/img_1745.jpg" alt="Einsatzkräfte trainieren Innenangriff"></p><p><img src="/img/stories/2013/img_1727.jpg" alt="Einsatzkräfte trainieren Innenangriff"> <br></p><p>Nach der Unterweisung und der ersten Wärmegewöhnung wurden die Kameraden truppweise organisiert. Nach dem Ausrüsten mit umluftunabhängigem Atemschutz gab es nochmal eine kurze Unterweisung durch den Trainer und sogleich ging es auch los. Der Auftrag war die Brandbekämpfung in einem Einfamilienhaus im Erdgeschoß und 1. Obergeschoß. </p><p><img src="/img/stories/2013/img_1763.jpg" alt="Einsatzkräfte trainieren Innenangriff"></p><p><img src="/img/stories/2013/img_1867.jpg" alt="Einsatzkräfte trainieren Innenangriff"></p><p>Neben dem richtigen Türcheck und der Kommunikation wurde den Einsatzkräften auch kraftmäßig einiges abverlangt. Es galt die Löschleitung durch das gesamte Gebäude zu verlegen um bis in den letzten Raum zu kommen. Hier bewiesen alle ein perfektes Organisationstalent um diese Hürde auf Anhieb zu schaffen. Nach dem Durchgang gab es gleich direkt Feedback vom Trainer und eine kleine Verköstigung um wieder zu Kräften zu kommen.</p><p><img src="/img/stories/2013/img_1799.jpg" alt="Einsatzkräfte trainieren Innenangriff"></p><p><img src="/img/stories/2013/img_1852.jpg" alt="Einsatzkräfte trainieren Innenangriff"> </p><p>weitere Bilder findest du auf <a href="http://www.bfk-krems.at/ShowArtikel.asp?Artikel=8963">bfk-krems.at </a><br></p><hr>
+</div>

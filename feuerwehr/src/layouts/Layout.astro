@@ -1,0 +1,80 @@
+---
+import { getCollection } from 'astro:content';
+import { url, slugify } from '../url';
+
+interface Props { title?: string; }
+const { title } = Astro.props;
+const pages = (await getCollection('pages')).sort((a, b) => a.data.order - b.data.order);
+const categories = ['Einsätze', 'Übungen', 'Veranstaltungen', 'Bewerbe'];
+const here = Astro.url.pathname;
+---
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Freiwillige Feuerwehr Geyersberg – Neuigkeiten, Einsätze, Übungen und Veranstaltungen." />
+    <link rel="icon" href={url('/favicon.svg')} type="image/svg+xml" />
+    <title>{title ? `${title} · FF Geyersberg` : 'Freiwillige Feuerwehr Geyersberg'}</title>
+  </head>
+  <body>
+    <a class="skip" href="#main">Zum Inhalt springen</a>
+    <header>
+      <div class="wrap bar">
+        <a class="brand" href={url('/')}>
+          <span class="badge" aria-hidden="true">112</span>
+          <span><strong>FF Geyersberg</strong><small>Freiwillige Feuerwehr</small></span>
+        </a>
+        <a class="home" href={url('/../')}>← Nesselstauden</a>
+      </div>
+      <nav aria-label="Hauptnavigation" class="wrap">
+        <a href={url('/news/')} aria-current={here.includes('/news/') ? 'page' : undefined}>News</a>
+        {categories.map((c) => <a href={url(`/kategorie/${slugify(c)}/`)} aria-current={here === url(`/kategorie/${slugify(c)}/`) ? 'page' : undefined}>{c}</a>)}
+        {pages.map((p) => <a href={url(`/${p.id}/`)} aria-current={here === url(`/${p.id}/`) ? 'page' : undefined}>{p.data.title}</a>)}
+      </nav>
+    </header>
+    <main id="main" class="wrap">
+      <slot />
+    </main>
+    <footer>
+      <div class="wrap">© Freiwillige Feuerwehr Geyersberg · Notruf <strong>122</strong></div>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --red: #c8102e; --red-dark: #8f0b20; --ink: #1c1c1e; --muted: #5b5b60; --bg: #f6f5f3; --card: #fff; --line: #e4e1dc;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; color: var(--ink); background: var(--bg);
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; line-height: 1.6; }
+  a { color: var(--red); }
+  .wrap { max-width: 68rem; margin: 0 auto; padding: 0 1rem; }
+  .skip { position: absolute; left: -999px; } .skip:focus { left: 1rem; top: 1rem; background: #fff; padding: .5rem; z-index: 9; }
+  header { background: var(--red); color: #fff; border-bottom: 6px solid var(--ink); }
+  .bar { display: flex; align-items: center; justify-content: space-between; padding-top: 1rem; padding-bottom: .5rem; gap: 1rem; }
+  .brand { display: flex; align-items: center; gap: .75rem; color: #fff; text-decoration: none; }
+  .brand strong { display: block; font-size: 1.6rem; font-weight: 900; text-transform: uppercase; letter-spacing: .02em; line-height: 1; }
+  .brand small { text-transform: uppercase; letter-spacing: .2em; font-size: .7rem; opacity: .85; }
+  .badge { display: grid; place-items: center; width: 3rem; height: 3rem; border-radius: 50%; background: #fff; color: var(--red); font-weight: 900; }
+  .home { color: #fff; font-size: .9rem; }
+  nav { display: flex; flex-wrap: wrap; gap: .25rem; padding-bottom: .75rem; }
+  nav a { color: #fff; text-decoration: none; padding: .35rem .7rem; border-radius: 4px; font-weight: 600; font-size: .95rem; }
+  nav a:hover, nav a[aria-current] { background: var(--red-dark); }
+  main { padding-top: 2rem; padding-bottom: 3rem; min-height: 60vh; }
+  h1, h2, h3 { line-height: 1.2; }
+  h1 { font-size: clamp(1.7rem, 4vw, 2.6rem); font-weight: 900; text-transform: uppercase; margin-top: 0; }
+  .meta { color: var(--muted); font-size: .9rem; }
+  .tag { display: inline-block; background: var(--ink); color: #fff; font-size: .75rem; padding: .1rem .5rem; border-radius: 3px; text-transform: uppercase; letter-spacing: .05em; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: 1rem; padding: 0; list-style: none; }
+  .cards li { background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--red); border-radius: 6px; padding: 1rem 1.2rem; }
+  .cards h2 { font-size: 1.15rem; margin: .4rem 0; }
+  .cards a { color: var(--ink); text-decoration: none; } .cards a:hover { color: var(--red); }
+  .pager { display: flex; justify-content: space-between; margin-top: 2rem; }
+  .legacy img { max-width: 100%; height: auto; }
+  .legacy table { display: block; overflow-x: auto; border-collapse: collapse; max-width: 100%; }
+  .legacy td { vertical-align: top; padding: .2rem .5rem; }
+  article { background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: clamp(1rem, 3vw, 2rem); }
+  footer { background: var(--ink); color: #ccc; padding: 1.5rem 0; font-size: .9rem; }
+</style>

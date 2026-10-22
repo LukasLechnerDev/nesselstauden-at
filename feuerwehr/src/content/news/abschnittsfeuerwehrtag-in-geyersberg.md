@@ -1,0 +1,9 @@
+---
+title: "Abschnittsfeuerwehrtag in Geyersberg"
+date: "2021-09-11"
+category: "Veranstaltungen"
+---
+
+<div class="legacy">
+<p>Am Freitag dem 10. September 2021 fand im Veranstaltungszentrum in Geyersberg der diesjährige Abschnitts-Feuerwehrtag statt. Nach dem Corona bedingten Ausfall des letzten Jahres konnte diese Veranstaltung unter strengen Sicherheitsmaßnahmen heuer wieder stattfinden. Abschnittsfeuerwehrkommandant Herbert Bagl begrüßte die rund 100 Kammeraden aus den 20 Feuerwehren des Feuerwehrabschnitts Mautern. Musikalisch umrahmt wurde die Veranstaltung von der Dunkelsteiner Blasmusik.</p><p><img src="/img/stories/2021/afk-tag/dsc01456.jpg" alt="Abschnittsfeuerwehrtag in Geyersberg"></p><p><img src="/img/stories/2021/afk-tag/dsc01461.jpg" alt="Abschnittsfeuerwehrtag in Geyersberg"></p><p><img src="/img/stories/2021/afk-tag/dsc01458.jpg" alt="Abschnittsfeuerwehrtag in Geyersberg">&nbsp;</p><p><img src="/img/stories/2021/afk-tag/dsc01468.jpg" alt="Abschnittsfeuerwehrtag in Geyersberg">&nbsp;</p><p>Zum Höhepunkt zählte die Ehrung zahlreicher Kameraden. In unserer Feuerwehr erhielten einige Mitglieder das "Ehrenzeichen für vieljährige verdienstvolle Tätigkeiten auf dem Gebiete des Feuerwehr- und Rettungswesen". Kommandant Werner Wieländer erhielt es für 25 Jahre, Johann Brunthaler, Leopold Lechner und Robert Messerer für 40 Jahre Tätigkeit innerhalb unserer freiwilligen Feuerwehr.&nbsp;</p><p><img src="/img/stories/2021/afk-tag/dsc01473.jpg" alt="Abschnittsfeuerwehrtag in Geyersberg"></p><p><img src="/img/stories/2021/afk-tag/dsc01480.jpg" alt="Abschnittsfeuerwehrtag in Geyersberg">&nbsp;</p><p><img src="/img/stories/2021/afk-tag/dsc01484.jpg" alt="Abschnittsfeuerwehrtag in Geyersberg"></p><p>&nbsp;<img src="/img/stories/2021/afk-tag/dsc01488.jpg" alt="Abschnittsfeuerwehrtag in Geyersberg">&nbsp;</p><p><img src="/img/stories/2021/afk-tag/dsc01494.jpg" alt="Abschnittsfeuerwehrtag in Geyersberg">&nbsp;</p><hr>
+</div>

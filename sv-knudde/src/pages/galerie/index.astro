@@ -1,0 +1,25 @@
+---
+import { Image } from 'astro:assets';
+import Layout from '../../layouts/Layout.astro';
+import { galleries, galleryTitle } from '../../gallery';
+import { url } from '../../url';
+---
+<Layout title="Fotos">
+  <h1>Fotos</h1>
+  <ul class="cards">
+    {Object.entries(galleries).map(([slug, imgs]) => (
+      <li>
+        <a href={url(`/galerie/${slug}/`)}>
+          <Image src={imgs[0]} alt="" width={480} />
+          <h2>{galleryTitle(slug)}</h2>
+        </a>
+        <span class="meta">{imgs.length} Fotos</span>
+      </li>
+    ))}
+  </ul>
+</Layout>
+
+<style>
+  img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 4px; }
+  h2 { margin-top: .5rem; }
+</style>

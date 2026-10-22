@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import NewsList from '../components/NewsList.astro';
+import { url } from '../url';
+
+const latest = (await getCollection('news')).sort((a, b) => +b.data.date - +a.data.date).slice(0, 9);
+---
+<Layout>
+  <h1>Freiwillige Feuerwehr Geyersberg</h1>
+  <p>Retten – Löschen – Bergen – Schützen. Aktuelles aus unserer Feuerwehr in Geyersberg.</p>
+  <h2>Aktuelles</h2>
+  <NewsList items={latest} />
+  <p><a href={url('/news/')}>Alle Beiträge →</a></p>
+</Layout>

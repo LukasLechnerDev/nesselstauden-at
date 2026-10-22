@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import NewsList from '../components/NewsList.astro';
+import { url } from '../url';
+
+const latest = (await getCollection('news')).sort((a, b) => +b.data.date - +a.data.date).slice(0, 6);
+---
+<Layout>
+  <h1>Willkommen beim SV Knudde</h1>
+  <p>News, Mannschaft, Termine und Fotos von unserem Verein.</p>
+  <h2>Neueste Beiträge</h2>
+  <NewsList items={latest} />
+  <p><a href={url('/news/')}>Alle Beiträge →</a> · <a href={url('/galerie/')}>Fotos →</a></p>
+</Layout>

@@ -1,0 +1,9 @@
+---
+title: "Landesbewerb 2014"
+date: "2014-09-02"
+category: "Bewerbe"
+---
+
+<div class="legacy">
+<p>Am 28. Juni 2014 war es wieder einmal soweit. Zwei Wettkampfgruppen der FF Geyersberg machten sich bereits um 04:30 Uhr auf den Weg nach Retz zu den diesjährigen Landesfeuerwehrleistungsbewerben. Nachdem Geyersberg 1 den Bronze-Lauf und Geyersberg 2 den Bronze- und Silber-Lauf absolviert hatten, wurde das Zelt aufgeschlagen und der heuer erstmals am FF-Fest angebotene "Geyersburger" zubereitet und verkostet.</p><p><img src="/img/stories/2014/landesbewerb/zwischenablage02.png" alt="Landesbewerb 2014"></p><p><em>die Gruppe Geyersberg 1 auf dem Weg zum Bewerbsplatz</em></p><p><img src="/img/stories/2014/landesbewerb/sdc12261.png" alt="Landesbewerb 2014"> </p><p><em>&nbsp;Vorbereitungen auf den Wettkampf </em></p> <br><p><img src="/img/stories/2014/landesbewerb/sdc12281.png" alt="Landesbewerb 2014"></p><p><em>Mittagspause im Zelt </em></p><br><p><img src="/img/stories/2014/landesbewerb/sdc12291.png" alt="Landesbewerb 2014"></p><p>Für den langjährigen Wassertruppmann Leopold Knedelstorfer ist es heuer das letzte Bewerbsjahr als aktiver Teilnehmer bei Wettkämpfen. Die Feuerwehr Geyersberg bedankte sich bei ihm für seine tolle Wettkampf-Tätigkeit mit einer FF Geyersberg Kappe, samt seinem Spitznamen "Leo" und dem Feuerwehrdrachen "Grisu".</p><p><img src="/img/stories/2014/landesbewerb/zwischenablage01.png" alt="Landesbewerb 2014"></p><p><em>&nbsp;Langzeit-Wettkämpfer "Leo" Knedelstorfer wurde ausgiebig gefeiert</em></p><p>Am nächsten Tag erfolgte die Siegerehrung am Retzer Hauptplatz vor einer spektakulären Kulisse an Feuerwehrmitgliedern.</p><p><img src="/img/stories/2014/landesbewerb/sdc12311.png" alt="Landesbewerb 2014"> <br></p><p><em>&nbsp;Retzer Kirche</em></p><p><img src="/img/stories/2014/landesbewerb/sdc12315.png" alt="Landesbewerb 2014"></p><br>
+</div>

@@ -1,0 +1,9 @@
+---
+title: "\"Schifoan is des Leiwandste!\""
+date: "2013-03-11"
+category: "Veranstaltungen"
+---
+
+<div class="legacy">
+<p>06:30 ..... minus 2 Grad .... am Horizont ein Morgenrot ....</p><p>.... Lambert unser Chauffeur lädt gerade die letzen Paar Schi vor dem Feuerwehrhaus in den Bus ein. Ab geht es Richtung Piste! Mit 28 Wintersportbegeisterten geht es auch heuer wieder auf das Hochkar. Die buntgemischte Gruppe ist gut gelaunt und heiß auf die Piste!</p><p>Durch die Begrüßung unseres Kommandant-Stellvertreters Werner Wieländer und einer Runde Schnaps werden die 2 Stunden Fahrzeit verkürzt. Angekommen spiegelt sich um 08:30 auf 1500m Höhe ein herrliches Bergwetter in unseren Augen.</p><p><img src="/img/stories/2013/sdc11514.jpg" alt="&quot;Schifoan is des Leiwandste!&quot;"></p><p><img src="/img/stories/2013/sdc11511.jpg" alt="&quot;Schifoan is des Leiwandste!&quot;"></p><p><img src="/img/stories/2013/sdc11517.jpg" alt="&quot;Schifoan is des Leiwandste!&quot;"> <br></p><p>Perfekte Pisten, wenige Leute und ein bisschen Aprés Ski machen diesen 2.März zu einem super Skitag.</p><p><img src="/img/stories/2013/sdc11521.jpg" alt="&quot;Schifoan is des Leiwandste!&quot;"></p><p><img src="/img/stories/2013/sdc11523.jpg" alt="&quot;Schifoan is des Leiwandste!&quot;"></p><p><img src="/img/stories/2013/sdc11525.jpg" alt="&quot;Schifoan is des Leiwandste!&quot;"> <br></p><p><em>"Schifoan is des Leiwandste, wos ma se nur fua stölln kau!"</em></p><p>Bei der Heimfahrt bedankt sich Verwalter-Stellvertreter Lukas Lechner bei dem Organisator Werner Wieländer. Matthias Schmotz und Rene Gloimüller empfangen die müden Wintersportler im Feuerwehrhaus mit leckeren Frankfurter.</p><p>Wir freuen uns schon wieder auf nächstes Jahr, wenn es wieder heißt:</p><p><em>"Schifoan is des Leiwandste ..."</em></p><hr>
+</div>

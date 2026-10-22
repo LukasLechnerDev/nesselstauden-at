@@ -1,0 +1,73 @@
+---
+import { getCollection } from 'astro:content';
+import { url } from '../url';
+
+interface Props { title?: string; }
+const { title } = Astro.props;
+const pages = (await getCollection('pages', (p) => !p.data.hidden)).sort((a, b) => a.data.order - b.data.order);
+const here = Astro.url.pathname;
+---
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Dorferneuerungsverein Nesselstauden-Geyersberg – Projekte, Chronik, Vorstand und Veranstaltungen." />
+    <link rel="icon" href={url('/favicon.svg')} type="image/svg+xml" />
+    <title>{title ? `${title} · Dorferneuerung Nesselstauden` : 'Dorferneuerung Nesselstauden-Geyersberg'}</title>
+  </head>
+  <body>
+    <a class="skip" href="#main">Zum Inhalt springen</a>
+    <header class="wrap">
+      <a class="home" href={url('/../')}>← Nesselstauden</a>
+      <a class="brand" href={url('/')}>
+        <small>Verein für</small>
+        Dorferneuerung
+        <small>Nesselstauden · Geyersberg</small>
+      </a>
+    </header>
+    <div class="wrap layout">
+      <nav aria-label="Hauptnavigation">
+        <a href={url('/')} aria-current={here === url('/') ? 'page' : undefined}>Startseite</a>
+        {pages.map((p) => <a href={url(`/${p.id}/`)} aria-current={here === url(`/${p.id}/`) ? 'page' : undefined}>{p.data.title}</a>)}
+        <a href={url('/../dorf-info/')}>Dorf-Info</a>
+      </nav>
+      <main id="main">
+        <slot />
+      </main>
+    </div>
+    <footer class="wrap">Dorferneuerungsverein Nesselstauden-Geyersberg</footer>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --clay: #b0562f; --moss: #4a5d3a; --ink: #2b2620; --muted: #6b6257; --bg: #f7f1e6; --paper: #fffdf8; --line: #e6dccb;
+    font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif; color: var(--ink); background: var(--bg);
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; line-height: 1.7; font-size: 1.05rem; }
+  a { color: var(--clay); }
+  .wrap { max-width: 70rem; margin: 0 auto; padding: 0 1rem; }
+  .skip { position: absolute; left: -999px; } .skip:focus { left: 1rem; top: 1rem; background: #fff; padding: .5rem; z-index: 9; }
+  header { text-align: center; padding: 1.5rem 1rem 2rem; position: relative; }
+  .home { position: absolute; left: 1rem; top: 1rem; font-size: .9rem; font-family: system-ui, sans-serif; }
+  .brand { display: inline-block; margin-top: 1rem; color: var(--moss); text-decoration: none; font-size: clamp(2rem, 6vw, 3.4rem); line-height: 1.05; font-weight: 600; }
+  .brand small { display: block; font-size: .9rem; letter-spacing: .25em; text-transform: uppercase; color: var(--clay); font-family: system-ui, sans-serif; font-weight: 500; }
+  .layout { display: grid; grid-template-columns: 14rem 1fr; gap: 2rem; align-items: start; }
+  nav { display: flex; flex-direction: column; border-top: 3px solid var(--moss); font-family: system-ui, sans-serif; font-size: .95rem; }
+  nav a { color: var(--ink); text-decoration: none; padding: .55rem .25rem; border-bottom: 1px solid var(--line); }
+  nav a:hover, nav a[aria-current] { color: var(--clay); padding-left: .6rem; }
+  main { background: var(--paper); border: 1px solid var(--line); border-radius: 2px; padding: clamp(1rem, 3vw, 2.5rem); min-height: 50vh; min-width: 0; }
+  h1 { color: var(--moss); font-weight: 600; font-size: clamp(1.6rem, 4vw, 2.2rem); margin-top: 0; }
+  .legacy img { max-width: 100%; height: auto; }
+  .legacy table { display: block; overflow-x: auto; border-collapse: collapse; max-width: 100%; }
+  .legacy td { vertical-align: top; padding: .25rem .6rem; }
+  footer { color: var(--muted); font-size: .9rem; padding: 2rem 1rem; text-align: center; }
+  @media (max-width: 48rem) {
+    .layout { grid-template-columns: 1fr; }
+    nav { flex-direction: row; flex-wrap: wrap; gap: .25rem 1rem; border-top: 0; }
+    nav a { border-bottom: 0; padding: .2rem 0; }
+    .home { position: static; display: block; text-align: left; }
+  }
+</style>

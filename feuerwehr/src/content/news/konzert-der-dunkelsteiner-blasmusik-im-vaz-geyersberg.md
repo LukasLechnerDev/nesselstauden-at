@@ -1,0 +1,9 @@
+---
+title: "Konzert der Dunkelsteiner Blasmusik im VAZ Geyersberg"
+date: "2015-11-15"
+category: "Veranstaltungen"
+---
+
+<div class="legacy">
+<p>Am 14. November 2015 gab die Dunkelsteiner Blasmusik ein Konzert mit dem Titel "Auf neuen und alten Pfaden". Rund 180 Besucher konnten dabei ausgezeichnete Musik im neuen Veranstaltungszentrum in Geyersberg genießen.</p><p><img src="/img/stories/2015/konzertDuBlaMu/dsc01041_andere.jpg" alt="Konzert der Dunkelsteiner Blasmusik im VAZ Geyersberg"></p><p><img src="/img/stories/2015/konzertDuBlaMu/dsc01043_andere.jpg" alt="Konzert der Dunkelsteiner Blasmusik im VAZ Geyersberg">&nbsp;</p><p><img src="/img/stories/2015/konzertDuBlaMu/dsc01045_andere.jpg" alt="Konzert der Dunkelsteiner Blasmusik im VAZ Geyersberg">&nbsp;</p><p><img src="/img/stories/2015/konzertDuBlaMu/dsc01047_andere.jpg" alt="Konzert der Dunkelsteiner Blasmusik im VAZ Geyersberg"></p><p><img src="/img/stories/2015/konzertDuBlaMu/dsc01048_andere.jpg" alt="Konzert der Dunkelsteiner Blasmusik im VAZ Geyersberg"></p><p><img src="/img/stories/2015/konzertDuBlaMu/dsc01050_andere.jpg" alt="Konzert der Dunkelsteiner Blasmusik im VAZ Geyersberg"></p><p><img src="/img/stories/2015/konzertDuBlaMu/dsc01052_andere.jpg" alt="Konzert der Dunkelsteiner Blasmusik im VAZ Geyersberg"></p><p><img src="/img/stories/2015/konzertDuBlaMu/dsc01058_andere.jpg" alt="Konzert der Dunkelsteiner Blasmusik im VAZ Geyersberg"></p><p><img src="/img/stories/2015/konzertDuBlaMu/dsc01063_andere.jpg" alt="Konzert der Dunkelsteiner Blasmusik im VAZ Geyersberg"></p><p><img src="/img/stories/2015/konzertDuBlaMu/dsc01067_andere.jpg" alt="Konzert der Dunkelsteiner Blasmusik im VAZ Geyersberg"></p><p><img src="/img/stories/2015/konzertDuBlaMu/dsc01074_andere.jpg" alt="Konzert der Dunkelsteiner Blasmusik im VAZ Geyersberg"></p><p><img src="/img/stories/2015/konzertDuBlaMu/dsc01076_andere.jpg" alt="Konzert der Dunkelsteiner Blasmusik im VAZ Geyersberg">&nbsp;</p><hr>
+</div>

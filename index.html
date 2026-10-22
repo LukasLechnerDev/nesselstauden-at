@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nesselstauden-Geyersberg im Dunkelsteinerwald: Freiwillige Feuerwehr, Dorferneuerung, SV Knudde und Dorf-Info.">
+  <title>Nesselstauden-Geyersberg</title>
+  <link rel="icon" href="images/dorfwappen_start.gif">
+  <style>
+    :root { --ink: #1f2a24; --muted: #5b665f; --bg: #eef1ea; --card: #fff; --line: #d9dfd3; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; color: var(--ink); background: radial-gradient(circle at 50% 0, #fff 0, var(--bg) 60%); }
+    main { flex: 1; width: 100%; max-width: 62rem; margin: 0 auto; padding: clamp(2rem, 8vw, 5rem) 1rem 3rem; }
+    h1 { margin: 0; text-align: center; font-size: clamp(2rem, 6vw, 3.5rem); line-height: 1.05; letter-spacing: -.02em; }
+    .lead { text-align: center; color: var(--muted); margin: .75rem 0 3rem; font-size: 1.1rem; }
+    ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 1rem; }
+    a { display: flex; flex-direction: column; align-items: center; gap: 1rem; height: 100%; padding: 2rem 1rem 1.5rem; background: var(--card); border: 1px solid var(--line); border-top: 5px solid var(--c); border-radius: 8px; color: var(--ink); text-decoration: none; text-align: center; transition: transform .15s, box-shadow .15s; }
+    a:hover, a:focus-visible { transform: translateY(-3px); box-shadow: 0 10px 24px rgb(0 0 0 / .08); }
+    a:focus-visible { outline: 3px solid var(--c); outline-offset: 2px; }
+    img { width: 7rem; height: 7rem; object-fit: contain; }
+    strong { font-size: 1.2rem; }
+    span { color: var(--muted); font-size: .95rem; }
+    footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 1.5rem 1rem; }
+    @media (prefers-reduced-motion: reduce) { a { transition: none; } a:hover { transform: none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Nesselstauden-Geyersberg</h1>
+    <p class="lead">Willkommen auf der Homepage von Nesselstauden-Geyersberg im Dunkelsteinerwald.</p>
+    <ul>
+      <li><a href="feuerwehr/" style="--c:#c8102e"><img src="images/ff_start.gif" alt=""><strong>Feuerwehr</strong><span>Freiwillige Feuerwehr Geyersberg</span></a></li>
+      <li><a href="dorferneuerung/" style="--c:#4a5d3a"><img src="images/haeuser.gif" alt=""><strong>Dorferneuerung</strong><span>Verein für Dorferneuerung</span></a></li>
+      <li><a href="sv-knudde/" style="--c:#74911d"><img src="images/knudde.gif" alt=""><strong>SV Knudde</strong><span>Hobbysportverein</span></a></li>
+      <li><a href="dorf-info/" style="--c:#c99a2e"><img src="images/dorfwappen_start.gif" alt=""><strong>Dorf-Info</strong><span>Steckbrief, Fotos &amp; Lage</span></a></li>
+    </ul>
+  </main>
+  <footer>Nesselstauden-Geyersberg · Gemeinde Bergern im Dunkelsteinerwald</footer>
+</body>
+</html>

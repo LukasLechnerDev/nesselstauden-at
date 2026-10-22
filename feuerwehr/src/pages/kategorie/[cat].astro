@@ -1,0 +1,19 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import NewsList from '../../components/NewsList.astro';
+import { slugify } from '../../url';
+
+export const getStaticPaths = (async () => {
+  const news = (await getCollection('news')).sort((a, b) => +b.data.date - +a.data.date);
+  const cats = [...new Set(news.map((n) => n.data.category).filter(Boolean))] as string[];
+  return cats.map((name) => ({ params: { cat: slugify(name) }, props: { name, items: news.filter((n) => n.data.category === name) } }));
+}) satisfies GetStaticPaths;
+
+const { name, items } = Astro.props;
+---
+<Layout title={name}>
+  <h1>{name}</h1>
+  <NewsList items={items} />
+</Layout>

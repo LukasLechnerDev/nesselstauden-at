@@ -1,0 +1,8 @@
+---
+title: "Vorstand"
+order: 1
+---
+
+<div class="legacy">
+<h3><strong>VORSTAND:&nbsp;</strong> <br></h3><h3>Obmann: Christian Reisinger</h3><p><img src="/img/stories/2014/sticker/sticker_christian_r_bearbeitet-1.jpg" alt="Vorstand"></p><p>Geburtsdatum: 21.02.1973</p><p>Wohnort: Nesselstauden 24</p><p>Beruf: Technischer Angestellter</p><p>Familienstand: verheiratet, 2 Kinder&nbsp; </p><hr><h3>Obmann-Stellvertreter, Schriftführer: Jürgen Heinzl</h3><p><img src="/img/stories/2014/sticker/sticker_jrgen_h.jpg" alt="Vorstand"></p><p>Geburtsdatum: 18.10.1980</p><p>Wohnort: Scheiblwies 6</p><p>Beruf: Immobilienmakler</p><p>Familienstand: ledig, 1Kind</p><hr><h3>Kassier: Alois Reisinger</h3><p><img src="/img/stories/2014/sticker/sticker_alois_r.jpg" alt="Vorstand"></p><p>Geburtsdatum: 08.03.1948</p><p>Wohnort: Nesselstauden 24</p><p>Beruf: Pensionist</p><p>Familienstand: verheiratet, 3 Kinder</p><hr><h3>Schriftführerstellvertreter: Johann Reisinger</h3><p><img src="/img/stories/2014/sticker/sticker_johann_r.jpg" alt="Vorstand"></p><p>Geburtsdatum: 31.08.1959</p><p>Wohnort: Nesselstauden 2</p><p>Beruf: Bio-Landwirt</p><p>Familienstand: verheiratet, 2 Kinder</p><hr><h3>Kassierstellvertreter: Markus Schwarz</h3><p><img src="/img/stories/2014/sticker/sticker_markus_s.jpg" alt="Vorstand"></p><p>Geburtsdatum: 28.01.1977</p><p>Wohnort: Nesselstauden 20</p><p>Beruf: Gemeindearbeiter</p><p>Familienstand: ledig </p><hr><h3>Spielervertreter: Rene Walter</h3><p><img src="/img/stories/2014/sticker/sticker_rene_w.jpg" alt="Vorstand"></p><p>Geburtsdatum: 28.12.1980</p><p>Wohnort: Aggsbach Dorf</p><p>Beruf: Bankangestellter</p><p>Familienstand: verheiratet, 2 Kinder</p>
+</div>

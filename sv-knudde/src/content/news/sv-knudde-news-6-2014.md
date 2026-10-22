@@ -1,0 +1,9 @@
+---
+title: "SV Knudde News 6 / 2014"
+date: "2014-06-27"
+category: "Aktuelles"
+---
+
+<div class="legacy">
+<p><img src="/img/stories/2014/news_2014-06_klein.png" alt="SV Knudde News 6 / 2014"></p><hr>
+</div>

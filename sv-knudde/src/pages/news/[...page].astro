@@ -1,0 +1,22 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import NewsList from '../../components/NewsList.astro';
+
+export const getStaticPaths = (async ({ paginate }) => {
+  const news = (await getCollection('news')).sort((a, b) => +b.data.date - +a.data.date);
+  return paginate(news, { pageSize: 18 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+---
+<Layout title="News">
+  <h1>News</h1>
+  <NewsList items={page.data} />
+  <nav class="pager" aria-label="Seiten">
+    {page.url.prev ? <a href={page.url.prev}>← Neuere</a> : <span />}
+    <span class="meta">Seite {page.currentPage} von {page.lastPage}</span>
+    {page.url.next ? <a href={page.url.next}>Ältere →</a> : <span />}
+  </nav>
+</Layout>

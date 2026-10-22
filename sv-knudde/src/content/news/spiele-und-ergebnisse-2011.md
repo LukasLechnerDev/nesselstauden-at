@@ -1,0 +1,9 @@
+---
+title: "Spiele und Ergebnisse 2011"
+date: "2011-06-15"
+category: "Aktuelles"
+---
+
+<div class="legacy">
+<ul><li><strong>13.05.2011:&nbsp; </strong><strong>4.Platz beim Kleinfeldtunier in Furth </strong></li></ul><p>(Torschützenkönig Patrick Siebenhandl - 10 Tore)</p><ul><li><strong>18.05.2011:&nbsp; HC Tornado Neidling - SV Knudde </strong><strong>11:5</strong></li></ul><ul><li><strong>08.06.2011:&nbsp; Gösser Team Ordning - SV Knudde </strong><strong>6:9</strong></li></ul><p>&nbsp;(Torschützen: 3x Reisinger Christian, 3x Jürgen Heinzl, 1x Lukas Lechner, Julian Reisinger, Clemens Reisinger)</p><ul><li><strong>13.06.2011:&nbsp; SV Knudde - TV 1868 Burghausen (DE)</strong><strong> 4:5 </strong></li></ul><p>(Torschützen: 2x Jürgen Heinzl, Christian Reisinger, Patrick Siebenhandl)</p><ul><li><strong>19.06.2011:&nbsp; SV Knudde - SV Nussdorf</strong><strong> 10:8&nbsp;</strong></li><br><br><li><strong>22.06.2011: &nbsp;SV Knudde - HC Tornado Neidling 4:3</strong></li><br><br><li><strong>13.07.2011: &nbsp;SV Knudde - FF Mautern 5:2</strong></li><br><br><li><strong>31.07.2011: &nbsp;SV Knudde - Kartausndrangers 13:5</strong></li><br><br><li><strong>10.08.2011: &nbsp;SV Knudde - FF Mautern 12:5</strong></li><br><br><li><strong>14.08.2011: &nbsp;4.Platz, Hobbyturnier Gansbach</strong></li></ul><p>weitere Termine:</p><ul><li><strong>09.10.2011: 08:00 Uhr - Gemeinsamer Kirchgang, anschließend Frühschoppen</strong></li></ul><br><ul><li><strong>26.10.2011: 14:00 Uhr - </strong><strong>letztes Saisonspiel, JUNG gegen ALT</strong></li></ul><br><ul><li><strong>07.11.2011: 18:30 Uhr - 1. Stockschießen</strong></li><br><br><li><strong>07.12.2011: 17:00 Uhr - Glühweinstand im Schulgarten Geyersberg<strong><br><br><br></strong></strong></li><li><strong>10.12.2011: 19:00 Uhr - Weihnachtsfeier im Gasthaus Tastl in Ma. Langegg</strong></li><li> </li></ul>
+</div>

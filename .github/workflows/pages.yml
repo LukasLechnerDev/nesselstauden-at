@@ -1,0 +1,53 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - id: pages
+        uses: actions/configure-pages@v5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: '*/package-lock.json'
+      - name: Build Astro sites
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: |
+          for site in feuerwehr dorferneuerung sv-knudde; do
+            (cd "$site" && npm ci && npm run build)
+          done
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          cp -r index.html images dorf-info _site/
+          for site in feuerwehr dorferneuerung sv-knudde; do
+            cp -r "$site/dist" "_site/$site"
+          done
+      - uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

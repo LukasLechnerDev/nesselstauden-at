@@ -1,0 +1,11 @@
+---
+import { getEntry } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import { withBase } from '../url';
+
+const start = (await getEntry('pages', 'startseite'))!;
+---
+<Layout>
+  <h1>Willkommen</h1>
+  <Fragment set:html={withBase(start.rendered?.html)} />
+</Layout>
