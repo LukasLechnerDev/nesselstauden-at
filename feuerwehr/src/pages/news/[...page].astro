@@ -3,6 +3,7 @@ import type { GetStaticPaths } from 'astro';
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import NewsList from '../../components/NewsList.astro';
+import CategoryChips from '../../components/CategoryChips.astro';
 
 export const getStaticPaths = (async ({ paginate }) => {
   const news = (await getCollection('news')).sort((a, b) => +b.data.date - +a.data.date);
@@ -11,12 +12,18 @@ export const getStaticPaths = (async ({ paginate }) => {
 
 const { page } = Astro.props;
 ---
-<Layout title="News">
-  <h1>News</h1>
+<Layout title="Aktuelles">
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Aktuelles</span>
+      <h1>Einsätze, Übungen &amp; Veranstaltungen</h1>
+    </div>
+  </div>
+  <CategoryChips />
   <NewsList items={page.data} />
   <nav class="pager" aria-label="Seiten">
-    {page.url.prev ? <a href={page.url.prev}>← Neuere</a> : <span />}
+    {page.url.prev ? <a class="btn btn-red" href={page.url.prev}>← Neuere</a> : <span />}
     <span class="meta">Seite {page.currentPage} von {page.lastPage}</span>
-    {page.url.next ? <a href={page.url.next}>Ältere →</a> : <span />}
+    {page.url.next ? <a class="btn btn-red" href={page.url.next}>Ältere →</a> : <span />}
   </nav>
 </Layout>

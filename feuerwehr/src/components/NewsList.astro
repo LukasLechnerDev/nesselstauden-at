@@ -1,15 +1,27 @@
 ---
 import type { CollectionEntry } from 'astro:content';
-import { url, formatDate } from '../url';
+import { url, cover, excerpt } from '../url';
 
 interface Props { items: CollectionEntry<'news'>[]; }
+const monthYear = (d: Date) => d.toLocaleDateString('de-AT', { month: 'long', year: 'numeric' });
 ---
 <ul class="cards">
-  {Astro.props.items.map((n) => (
-    <li>
-      {n.data.category && <span class="tag">{n.data.category}</span>}
-      <h2><a href={url(`/news/${n.id}/`)}>{n.data.title}</a></h2>
-      <time class="meta" datetime={n.data.date.toISOString()}>{formatDate(n.data.date)}</time>
-    </li>
-  ))}
+  {Astro.props.items.map((n) => {
+    const img = cover(n.body);
+    return (
+      <li>
+        <a class="media" href={url(`/news/${n.id}/`)} tabindex="-1" aria-hidden="true">
+          {img && <img src={img} alt="" loading="lazy" />}
+        </a>
+        <div class="body">
+          <div class="meta">
+            {n.data.category && <span class="chip">{n.data.category}</span>}
+            <time datetime={n.data.date.toISOString()}>{monthYear(n.data.date)}</time>
+          </div>
+          <h2><a href={url(`/news/${n.id}/`)}>{n.data.title}</a></h2>
+          <p>{excerpt(n.body)}</p>
+        </div>
+      </li>
+    );
+  })}
 </ul>

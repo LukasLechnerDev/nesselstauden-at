@@ -14,8 +14,12 @@ const title = galleryTitle(Astro.params.slug);
 const full = await Promise.all(images.map((src) => getImage({ src, width: 1600 })));
 ---
 <Layout title={title}>
-  <h1>{title}</h1>
-  <p><a href={url('/galerie/')}>← Alle Galerien</a></p>
+  <div class="section-head">
+    <div>
+      <a class="eyebrow" href={url('/galerie/')}>← Alle Galerien</a>
+      <h1>{title}</h1>
+    </div>
+  </div>
   <div class="grid">
     {images.map((img, i) => (
       <a href={full[i].src}><Image src={img} alt={`${title}, Foto ${i + 1}`} width={320} loading="lazy" /></a>

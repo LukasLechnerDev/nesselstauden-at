@@ -4,12 +4,180 @@ import Layout from '../layouts/Layout.astro';
 import NewsList from '../components/NewsList.astro';
 import { url } from '../url';
 
-const latest = (await getCollection('news')).sort((a, b) => +b.data.date - +a.data.date).slice(0, 9);
+const latest = (await getCollection('news')).sort((a, b) => +b.data.date - +a.data.date).slice(0, 6);
+
+const stats = [
+  { value: '1902', label: 'gegründet' },
+  { value: '122', label: 'Feuerwehr-Notruf' },
+];
+
+const milestones = [
+  { year: '1902', text: 'Gründung unter Kommandant Leopold Heiß mit neun weiteren Mitgliedern.' },
+  { year: '1966', text: 'Kirchturmbrand der Wallfahrtskirche in Maria Langegg – 324 Stunden Einsatz.' },
+  { year: '1979', text: 'Das neue Gerätehaus wird gesegnet und in Betrieb genommen.' },
+  { year: '1981', text: 'Das erste Feuerwehrfest wird abgehalten.' },
+  { year: '1984', text: 'Der erste Atemschutztrupp wird gebildet und ausgerüstet.' },
+  { year: '1997', text: 'Neues Tanklöschfahrzeug TLF 1000 (Mercedes 814 Allrad).' },
+  { year: '2002', text: '100 Jahre FF Geyersberg mit Drei-Tages-Fest und Bezirksleistungsbewerb.' },
+  { year: '2016', text: 'Segnung des neuen Feuerwehrhauses mit Veranstaltungszentrum – rund 14.000 freiwillige Arbeitsstunden seit 2012.' },
+  { year: '2024', text: '122-Jahr-Feier mit Bezirksfeuerwehrleistungsbewerb in Geyersberg.' },
+  { year: '2025', text: 'Gewinn des Wanderpokals „Heiliger Florian“ für drei Bezirkssiege in Folge.' },
+];
+
+const email = 'N10504@feuerwehr.gv.at';
+const kommando = [
+  { name: 'OBI René Gloimüller', role: 'Kommandant', phone: '0677/61175549' },
+  { name: 'BI Wolfgang Friewald', role: 'Kommandant-Stellvertreter' },
+  { name: 'V Robert Krayatsch', role: 'Verwalter' },
+];
 ---
-<Layout>
-  <h1>Freiwillige Feuerwehr Geyersberg</h1>
-  <p>Retten – Löschen – Bergen – Schützen. Aktuelles aus unserer Feuerwehr in Geyersberg.</p>
-  <h2>Aktuelles</h2>
-  <NewsList items={latest} />
-  <p><a href={url('/news/')}>Alle Beiträge →</a></p>
+<Layout full>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">Seit 1902 für Sie im Einsatz</span>
+        <h1>Freiwillige Feuerwehr Geyersberg</h1>
+        <p>
+          Wir sind für Geyersberg, Nesselstauden, Scheiblwies, Maria Langegg und Plaimberg da – im Abschnitt Mautern,
+          Bezirk Krems. Ehrenamtlich, rund um die Uhr.
+        </p>
+        <div class="actions">
+          <a class="btn btn-primary" href={url('/news/')}>Aktuelles lesen</a>
+          <a class="btn btn-ghost" href="#kontakt">Kontakt</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src={url('/img/stories/feuerwehrgeyer.jpg')} alt="Der Feuerwehr-Geyer der FF Geyersberg" width="360" height="360" />
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <ul class="stats">
+      {stats.map((s) => <li><strong>{s.value}</strong><span>{s.label}</span></li>)}
+    </ul>
+  </div>
+
+  <section class="section" id="aktuelles">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Aktuelles</span>
+          <h2>Neues aus der Feuerwehr</h2>
+        </div>
+        <a class="btn btn-red" href={url('/news/')}>Alle Beiträge →</a>
+      </div>
+      <NewsList items={latest} />
+    </div>
+  </section>
+
+  <section class="section about" id="ueber-uns">
+    <div class="container about-grid">
+      <div>
+        <span class="eyebrow">Über uns</span>
+        <h2>Über 120 Jahre Feuerwehr in Geyersberg</h2>
+        <p>
+          Was 1902 mit einer Handspritze und zehn Mitgliedern begann, ist heute eine moderne Feuerwehr mit eigenem
+          Feuerwehrhaus, Tanklöschfahrzeug und einer Mannschaft, die sich bei Einsätzen, Übungen und Veranstaltungen für
+          die Gemeinschaft einsetzt.
+        </p>
+        <p><a href={url('/feuerwehr/')}>Zur ganzen Chronik →</a></p>
+      </div>
+      <ol class="timeline">
+        {milestones.map((m) => <li><span>{m.year}</span><p>{m.text}</p></li>)}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="kontakt">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Kontakt</span>
+          <h2>So erreichen Sie uns</h2>
+        </div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card emergency">
+          <span>Im Notfall</span>
+          <a href="tel:122">122</a>
+          <p>Feuerwehr-Notruf – rund um die Uhr.</p>
+        </div>
+        <div class="contact-card">
+          <span>Postanschrift</span>
+          <p><strong>Freiwillige Feuerwehr Geyersberg</strong><br />Geyersberg 11<br />3122 Gansbach</p>
+          <p><a href={`mailto:${email}`}>{email}</a></p>
+        </div>
+        <div class="contact-card">
+          <span>Kommando</span>
+          {kommando.map((p) => (
+            <p>
+              <strong>{p.name}</strong><br />
+              {p.role}{p.phone && <> · <a href={`tel:${p.phone.replace(/\D/g, '')}`}>{p.phone}</a></>}
+            </p>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
 </Layout>
+
+<style>
+  .hero {
+    color: #fff;
+    background:
+      radial-gradient(900px 500px at 85% 20%, rgb(255 255 255 / .12), transparent 60%),
+      linear-gradient(140deg, var(--red) 0%, var(--red-deep) 70%);
+    padding-block: clamp(56px, 9vw, 112px) clamp(88px, 11vw, 140px);
+    overflow: hidden;
+  }
+  .hero-grid { display: grid; grid-template-columns: 1.2fr 1fr; align-items: center; gap: 48px; }
+  .hero .eyebrow { color: rgb(255 255 255 / .75); }
+  .hero h1 { font-size: clamp(2.75rem, 7vw, 5rem); margin: .2em 0 .35em; }
+  .hero p { font-size: 1.15rem; max-width: 34em; color: rgb(255 255 255 / .85); }
+  .actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px; }
+  .hero-art { display: grid; place-items: center; }
+  .hero-art img {
+    width: min(360px, 72vw); aspect-ratio: 1; padding: 8%; border-radius: 50%; background: #fff; object-fit: contain;
+    box-shadow: 0 0 0 10px rgb(255 255 255 / .12), 0 0 0 22px rgb(255 255 255 / .06), 0 30px 60px -20px rgb(0 0 0 / .55);
+  }
+
+  .stats {
+    list-style: none; margin: -56px 0 0; padding: 0; position: relative;
+    display: grid; grid-template-columns: repeat(2, 1fr);
+    background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); border: 1px solid var(--line);
+  }
+  .stats li { padding: 22px 24px; display: grid; }
+  .stats li + li { border-left: 1px solid var(--line); }
+  .stats strong { font-family: var(--font-display); font-size: 2.4rem; line-height: 1; color: var(--red); }
+  .stats span { font-size: .9rem; color: var(--ink-soft); }
+
+  .about { background: var(--card); border-block: 1px solid var(--line); }
+  .about-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 56px; }
+  .about h2 { font-size: clamp(2rem, 4vw, 2.75rem); }
+  .about p { color: var(--ink-soft); }
+  .timeline { list-style: none; margin: 0; padding: 0; border-left: 2px solid var(--red-tint); }
+  .timeline li { position: relative; padding: 0 0 22px 28px; }
+  .timeline li::before {
+    content: ''; position: absolute; left: -7px; top: 6px; width: 12px; height: 12px; border-radius: 50%;
+    background: var(--red); box-shadow: 0 0 0 4px var(--card);
+  }
+  .timeline span { font-family: var(--font-display); font-weight: 700; font-size: 1.3rem; color: var(--red); }
+  .timeline p { margin: 0; }
+
+  .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+  .contact-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; }
+  .contact-card > span { font-size: .8rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); }
+  .contact-card p { margin: .6em 0 0; }
+  .contact-card.emergency { background: var(--red); border-color: var(--red); color: #fff; }
+  .contact-card.emergency > span, .contact-card.emergency p { color: rgb(255 255 255 / .85); }
+  .contact-card.emergency a {
+    display: block; font-family: var(--font-display); font-size: 4.5rem; font-weight: 700; line-height: 1;
+    color: #fff; text-decoration: none; margin-top: 8px;
+  }
+
+  @media (max-width: 860px) {
+    .hero-grid, .about-grid { grid-template-columns: 1fr; }
+    .hero-art { order: -1; }
+  }
+</style>

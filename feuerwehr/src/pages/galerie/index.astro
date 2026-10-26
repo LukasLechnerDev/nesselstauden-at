@@ -5,21 +5,21 @@ import { galleries, galleryTitle } from '../../gallery';
 import { url } from '../../url';
 ---
 <Layout title="Fotos">
-  <h1>Fotos</h1>
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Galerie</span>
+      <h1>Fotos</h1>
+    </div>
+  </div>
   <ul class="cards">
     {Object.entries(galleries).map(([slug, imgs]) => (
       <li>
-        <a href={url(`/galerie/${slug}/`)}>
-          <Image src={imgs[0]} alt="" width={480} />
-          <h2>{galleryTitle(slug)}</h2>
-        </a>
-        <span class="meta">{imgs.length} Fotos</span>
+        <a class="media" href={url(`/galerie/${slug}/`)} tabindex="-1" aria-hidden="true"><Image src={imgs[0]} alt="" width={480} /></a>
+        <div class="body">
+          <h2><a href={url(`/galerie/${slug}/`)}>{galleryTitle(slug)}</a></h2>
+          <span class="meta">{imgs.length} Fotos</span>
+        </div>
       </li>
     ))}
   </ul>
 </Layout>
-
-<style>
-  img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 4px; }
-  h2 { margin-top: .5rem; }
-</style>

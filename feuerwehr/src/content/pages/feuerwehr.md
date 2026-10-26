@@ -1,5 +1,5 @@
 ---
-title: "Feuerwehr"
+title: "Chronik"
 order: 0
 ---
 

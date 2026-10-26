@@ -3,6 +3,7 @@ import type { GetStaticPaths } from 'astro';
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import NewsList from '../../components/NewsList.astro';
+import CategoryChips from '../../components/CategoryChips.astro';
 import { slugify } from '../../url';
 
 export const getStaticPaths = (async () => {
@@ -14,6 +15,12 @@ export const getStaticPaths = (async () => {
 const { name, items } = Astro.props;
 ---
 <Layout title={name}>
-  <h1>{name}</h1>
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Aktuelles</span>
+      <h1>{name}</h1>
+    </div>
+  </div>
+  <CategoryChips />
   <NewsList items={items} />
 </Layout>

@@ -9,12 +9,18 @@ export const getStaticPaths = (async () =>
 
 const { entry } = Astro.props;
 ---
-<Layout title={entry.data.title}>
-  <article>
-    {entry.data.category && <span class="tag">{entry.data.category}</span>}
-    <h1>{entry.data.title}</h1>
-    <p class="meta"><time datetime={entry.data.date.toISOString()}>{formatDate(entry.data.date)}</time></p>
+<Layout title={entry.data.title} full>
+  <header class="post-head">
+    <div class="container prose">
+      <a class="back" href={url('/news/')}>← Alle Beiträge</a>
+      <div class="meta">
+        {entry.data.category && <span class="chip">{entry.data.category}</span>}
+        <time datetime={entry.data.date.toISOString()}>{formatDate(entry.data.date)}</time>
+      </div>
+      <h1>{entry.data.title}</h1>
+    </div>
+  </header>
+  <article class="container prose post-body">
     <Fragment set:html={withBase(entry.rendered?.html)} />
   </article>
-  <p><a href={url('/news/')}>← Alle Beiträge</a></p>
 </Layout>

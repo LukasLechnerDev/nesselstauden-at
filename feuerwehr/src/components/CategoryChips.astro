@@ -1,0 +1,13 @@
+---
+import { url, slugify } from '../url';
+
+const categories = ['Einsätze', 'Übungen', 'Veranstaltungen', 'Bewerbe'];
+const here = Astro.url.pathname;
+---
+<nav class="chips" aria-label="Kategorien">
+  <a class="chip" href={url('/news/')} aria-current={here.includes('/news/') ? 'page' : undefined}>Alle</a>
+  {categories.map((c) => {
+    const href = url(`/kategorie/${slugify(c)}/`);
+    return <a class="chip" href={href} aria-current={here === href ? 'page' : undefined}>{c}</a>;
+  })}
+</nav>

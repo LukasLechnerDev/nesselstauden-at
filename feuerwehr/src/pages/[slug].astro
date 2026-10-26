@@ -2,16 +2,21 @@
 import type { GetStaticPaths } from 'astro';
 import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
-import { withBase } from '../url';
+import { url, withBase } from '../url';
 
 export const getStaticPaths = (async () =>
   (await getCollection('pages')).map((entry) => ({ params: { slug: entry.id }, props: { entry } }))) satisfies GetStaticPaths;
 
 const { entry } = Astro.props;
 ---
-<Layout title={entry.data.title}>
-  <article>
-    <h1>{entry.data.title}</h1>
+<Layout title={entry.data.title} full>
+  <header class="post-head">
+    <div class="container prose">
+      <a class="back" href={url('/')}>← Startseite</a>
+      <h1>{entry.data.title}</h1>
+    </div>
+  </header>
+  <article class="container prose post-body">
     <Fragment set:html={withBase(entry.rendered?.html)} />
   </article>
 </Layout>
